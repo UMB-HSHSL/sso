@@ -1,0 +1,9 @@
+<?php
+
+// defaults to Ldap_authenticator
+// $config['authenticator'] = 'Ldap_authenticator';
+
+$config['apps'] = array(
+	'libpay' => 'https://www.hshsl.umaryland.edu/bin/test/pay/index.php',
+	'make'   => 'https://www.hshsl.umaryland.edu/bin/test/make/index.php',
+);
